@@ -1,0 +1,11 @@
+
+{
+  "name"         : "radicalApp",
+  "version"      : "0.0.1",
+  "description"  : "Skeleton Framework.",
+  "main"         : "server.js",
+  "author"       : "Radical Graphics V.O.F.",
+  "dependencies" : {
+    "restify": "^2.6.3"
+    }
+}
