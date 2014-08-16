@@ -1,0 +1,50 @@
+
+@font-face { font-family: TradeGothicLTStd-Bd2; src: url('../webfonts/TradeGothicLTStd-Bd2.otf'); } 
+
+.navbar {
+	min-height: 70px;
+}
+.mhz-title {
+    font-size: 2.5em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    line-height: 0.4em;
+}
+
+.navbar-nav {
+	float: right;
+	line-height: 0.6em;
+    padding-top: 1.3em;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: transparent;
+    font-family: TradeGothicLTStd-Bd2, sans-serif;
+    font-size: 1em;
+}
+
+
+/* ================================================== */
+/* Responsive Media ================================= */
+/* ================================================== */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 320px) {
+
+}
+
+
+
+
+

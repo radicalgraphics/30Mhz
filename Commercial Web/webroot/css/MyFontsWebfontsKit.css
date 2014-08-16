@@ -1,0 +1,82 @@
+/* @license
+ * MyFonts Webfont Build ID 2519390, 2013-04-02T06:24:54-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed ../Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: ITC American Typewriter Pro Medium by ITC
+ * URL: http://www.myfonts.com/fonts/itc/american-typewriter/pro-medium/
+ * Copyright: Font software Copyright 1985, 1987, 1990, 1991, 2002 Adobe Systems Incorporated. Typeface designs Copyright 2007 International Typeface Corporation. All rights reserved.
+ * 
+ * Webfont: ITC American Typewriter Pro Light by ITC
+ * URL: http://www.myfonts.com/fonts/itc/american-typewriter/pro-light/
+ * Copyright: Font software Copyright 1990, 1991, 1994, 2002 Adobe Systems Incorporated. Typeface designs Copyright 2007 International Typeface Corporation. All rights reserved.
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2519390
+ * 
+ * © 2013 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/26715e");
+@import url("//hello.myfonts.net/count/2ac7cb");
+  
+@font-face {
+	font-family: 'AmericanTypewriterITCPro-Med';
+	src: url('../webfonts/26715E_0_0.eot');
+	src: url('../webfonts/26715E_0_0.eot?#iefix') format('embedded-opentype'),
+	url('../webfonts/26715E_0_0.woff') format('woff'),
+	url('../webfonts/26715E_0_0.ttf') format('truetype');
+}
+
+
+@font-face {
+	font-family: 'AmericanTypewriterITCPro-Lt';
+	src: url('../webfonts/26715E_1_0.eot');
+	src: url('../webfonts/26715E_1_0.eot?#iefix') format('embedded-opentype'),
+	url('../webfonts/26715E_1_0.woff') format('woff'),
+	url('../webfonts/26715E_1_0.ttf') format('truetype');
+}
+
+/*@font-face {
+	font-family: 'TradeGothicLTStd-Cn18';
+	/*src: url('../webfonts/');
+	src: url('../webfonts/TradeGothicLTStd-Cn18.otf') format('embedded-opentype');
+		}*/
+
+/*@font-face {
+	font-family: 'TradeGothicLTStd-Light';
+	/*src: url('../webfonts/');
+	src: url('../webfonts/TradeGothicLTStd-Light.otf') format('embedded-opentype');
+		}*/
+
+@font-face { font-family: TradeGothicLTStd-Light; src: url('../webfonts/TradeGothicLTStd-Light.otf'); } 
+@font-face { font-family: TradeGothicLTStd-Cn18; src: url('../webfonts/TradeGothicLTStd-Cn18.otf'); } 
+@font-face { font-family: TradeGothicLTStd; src: url('../webfonts/TradeGothicLTStd.otf'); } 
+@font-face { font-family: TradeGothicLTStd-Bd2; src: url('../webfonts/TradeGothicLTStd-Bd2.otf'); } 
+
+@font-face {
+	font-family: 'Quickpen';
+	src: url('../webfonts/2AC7CB_0_0.eot');
+	src: url('../webfonts/2AC7CB_0_0.eot?#iefix') format('embedded-opentype'),
+	url('../webfonts/2AC7CB_0_0.woff') format('woff'),
+	url('../webfonts/2AC7CB_0_0.ttf') format('truetype');
+} 
+
+
+
+.Quickpen { 
+	font-family: Quickpen;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 2.1em;
+	color: #f6815c;
+}
+
+
+
