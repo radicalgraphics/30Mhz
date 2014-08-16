@@ -5,6 +5,7 @@
     background-color: #fff;
     border-color: #E7E7E7;
 }
+
 .navbar {
 	min-height: 70px;
 }
@@ -44,6 +45,12 @@
 
 #login-text {
 	color: #000;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+    text-align: center;
 }
 /* ================================================== */
 /* Responsive Media ================================= */
