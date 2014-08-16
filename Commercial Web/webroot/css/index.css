@@ -1,10 +1,16 @@
 
 @font-face { font-family: TradeGothicLTStd-Bd2; src: url('../webfonts/TradeGothicLTStd-Bd2.otf'); } 
 
+.navbar-default {
+    background-color: #fff;
+    border-color: #E7E7E7;
+}
 .navbar {
 	min-height: 70px;
 }
+
 .mhz-title {
+	color: #000;
     font-size: 2.5em;
     font-family: 'Lato', sans-serif;
     font-weight: 200;
@@ -15,15 +21,30 @@
 	float: right;
 	line-height: 0.6em;
     padding-top: 1.3em;
-}
-
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-    background-color: transparent;
     font-family: TradeGothicLTStd-Bd2, sans-serif;
-    font-size: 1em;
+    font-size: 0.9em;
+	letter-spacing: 1px;
 }
 
+#benefits-text {
+	color: #54b101;
+}
 
+#tour-text {
+	color: #00b3b1;
+}
+
+#zensi-text {
+	color: #9464b9;
+}
+
+#contact-text {
+	color: #ff5a00;
+}
+
+#login-text {
+	color: #000;
+}
 /* ================================================== */
 /* Responsive Media ================================= */
 /* ================================================== */
