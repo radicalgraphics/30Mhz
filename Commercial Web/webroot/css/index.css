@@ -8,6 +8,7 @@
 
 .navbar {
 	min-height: 70px;
+	margin-bottom: 0;
 }
 
 .mhz-title {
@@ -25,6 +26,18 @@
     font-family: TradeGothicLTStd-Bd2, sans-serif;
     font-size: 0.9em;
 	letter-spacing: 1px;
+}
+
+.navbar-nav>li>a {
+	padding-top: 0; 
+	padding-bottom: 0;
+	line-height: auto;
+	margin-top: 2.5em;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: transparent;
+    margin-top: 2.5em;
 }
 
 #benefits-text {
@@ -45,6 +58,31 @@
 
 #login-text {
 	color: #000;
+}
+
+#benefits {
+	background-color: #ece9e9;
+}
+
+#sensitive-text {
+	color: #000;
+    font-size: 3.8em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+}
+
+#taking-text {
+	color: #000;
+    font-size: 2.05em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+#watching-text {
+	color: #000;
+    font-size: 5.9em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
 }
 
 .col-centered{
