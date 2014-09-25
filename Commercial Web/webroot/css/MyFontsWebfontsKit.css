@@ -26,7 +26,7 @@
 @import url("//hello.myfonts.net/count/26715e");
 @import url("//hello.myfonts.net/count/2ac7cb");
   
-@font-face {
+/*@font-face {
 	font-family: 'AmericanTypewriterITCPro-Med';
 	src: url('../webfonts/26715E_0_0.eot');
 	src: url('../webfonts/26715E_0_0.eot?#iefix') format('embedded-opentype'),
@@ -41,7 +41,7 @@
 	src: url('../webfonts/26715E_1_0.eot?#iefix') format('embedded-opentype'),
 	url('../webfonts/26715E_1_0.woff') format('woff'),
 	url('../webfonts/26715E_1_0.ttf') format('truetype');
-}
+}*/
 
 /*@font-face {
 	font-family: 'TradeGothicLTStd-Cn18';
@@ -55,10 +55,14 @@
 	src: url('../webfonts/TradeGothicLTStd-Light.otf') format('embedded-opentype');
 		}*/
 
-@font-face { font-family: TradeGothicLTStd-Light; src: url('../webfonts/TradeGothicLTStd-Light.otf'); } 
+/*@font-face { font-family: TradeGothicLTStd-Light; src: url('../webfonts/TradeGothicLTStd-Light.otf'); } 
 @font-face { font-family: TradeGothicLTStd-Cn18; src: url('../webfonts/TradeGothicLTStd-Cn18.otf'); } 
-@font-face { font-family: TradeGothicLTStd; src: url('../webfonts/TradeGothicLTStd.otf'); } 
+@font-face { font-family: TradeGothicLTStd; src: url('../webfonts/TradeGothicLTStd.otf'); } */
 @font-face { font-family: TradeGothicLTStd-Bd2; src: url('../webfonts/TradeGothicLTStd-Bd2.otf'); } 
+
+@import url(http://fonts.googleapis.com/css?family=Lato:400,300,700,900);
+
+
 
 @font-face {
 	font-family: 'Quickpen';
