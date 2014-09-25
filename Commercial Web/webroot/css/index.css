@@ -262,6 +262,8 @@ div#google-map {
 /* =============================================== */
 #team {
     background-color: #fafaf2;
+    padding-top: 2em;
+    padding-bottom: 5em;
 }
 
 
@@ -290,8 +292,21 @@ div#google-map {
 }
 
 .team-row{
-    margin-top: 8em;
+    padding-top: 6em;
     margin: 0 auto 0;
+}
+
+.team-row a img:hover{
+    opacity: 0.1;
+    filter: alpha(opacity=10);
+
+
+}
+
+.team-row.green-cover:hover{
+    
+    background-color: #ABD036;
+    border-radius: 50px;
 }
 
 /* ================================================== */
