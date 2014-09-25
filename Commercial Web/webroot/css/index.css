@@ -1,6 +1,11 @@
 
 @font-face { font-family: TradeGothicLTStd-Bd2; src: url('../webfonts/TradeGothicLTStd-Bd2.otf'); } 
 
+
+.row{
+    margin-right: 0px;
+}
+
 .navbar-default {
     background-color: #fff;
     border-color: #E7E7E7;
@@ -9,14 +14,6 @@
 .navbar {
 	min-height: 70px;
 	margin-bottom: 0;
-}
-
-.mhz-title {
-	color: #000;
-    font-size: 2.5em;
-    font-family: 'Lato', sans-serif;
-    font-weight: 200;
-    line-height: 0.4em;
 }
 
 .navbar-nav {
@@ -40,9 +37,37 @@
     margin-top: 2.5em;
 }
 
+.mhz-title {
+    color: #000;
+    font-size: 1em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 0.4em;
+}
+
+.zensi-title{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color:#000000;
+    font-size: 2em;
+    line-height: 80px;
+}
+
+.logoimg{
+    width:10em;
+    margin-top: .8em;
+}
+
+
 /* =============================================== */
 /* BENEFITS SECTION ============================== */
 /* =============================================== */
+
+#benefits {
+    background-color: #ece9e9;
+    padding-top: 5em;
+    padding-bottom: 7em;
+}
 
 #benefits-text {
 	color: #54b101;
@@ -64,29 +89,29 @@
 	color: #000;
 }
 
-#benefits {
-	background-color: #ece9e9;
-}
+
 
 #benefits-sensitive-text {
 	color: #000;
-    font-size: 3.8em;
+    font-size: 6em;
     font-family: 'Lato', sans-serif;
     font-weight: 200;
 }
 
-#benefits-taking-text {
+.benefits-taking-text {
 	color: #000;
     font-size: 2.05em;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
+    padding-bottom: 1em;
 }
 
 #benefits-watching-text {
 	color: #000;
-    font-size: 5.9em;
+    font-size: 3.5em;
     font-family: 'Lato', sans-serif;
     font-weight: 200;
+    padding-top: .5em;
 }
 
 /* =============================================== */
@@ -99,6 +124,8 @@
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: 100%;
+    /*padding-top: 5em;*/
+    padding-bottom: 5em;
 }
 
 #tour-monitoring-text {
@@ -126,7 +153,7 @@
 	color: #000;
     font-size: 1.1em;
     font-family: 'Lato', sans-serif;
-    font-weight: 200;
+    font-weight: 400;
     margin-left: 3%;
     margin-top: 0.7em;
 }
@@ -146,44 +173,19 @@
     margin-bottom: 2.2em;
 }
 
-#tour-col1-title {
+
+.tour-col-title{
     color: #010101;
     font-size: 1.9em;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     text-align: center;
- 
+    margin-top: 0.7em;   
 }
 
-#tour-col2-title {
-    color: #010101;
-    font-size: 1.9em;
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    text-align: center;
-    margin-top: 0.7em;    
-}
-
-#tour-col3-title {
-    color: #010101;
-    font-size: 1.9em;
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    text-align: center;
-    margin-top: 0.7em;    
-}
-
-#tour-col4-title {
-    color: #010101;
-    font-size: 1.9em;
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    text-align: center;
-    margin-top: 0.7em;    
-}
-
- .tour-col-text {
+.tour-col-text {
     font-size: 1.1em;
+    font-family: 'Lato', sans-serif;
     text-align: left;
     margin-top: 1em;
     line-height: 1.6em;
@@ -191,7 +193,7 @@
 
 .col-centered{
     float: none;
-    margin: 0 auto;
+    margin: 0 auto 0;
     text-align: center;
 }
 
@@ -249,6 +251,42 @@
 }
 
 
+/* =============================================== */
+/* TEAM SECTION ================================== */
+/* =============================================== */
+#team {
+    background-color: #fafaf2;
+}
+
+
+.team-title-text{
+    color:#b477e8;
+    font-size: 5em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    margin-left: 6%;
+    text-align: left;
+}
+
+.team-subtitle-text{
+    color: #000;
+    font-size: 1.8em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    /*margin-top: 3em;*/
+    margin-left: 6%;
+    text-align: left;
+}
+
+.purple-text{
+    font-weight: 400;
+    color:#b477e8;
+}
+
+.team-row{
+    margin-top: 8em;
+    margin: 0 auto 0;
+}
 
 /* ================================================== */
 /* Responsive Media ================================= */
