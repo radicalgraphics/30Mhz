@@ -440,6 +440,7 @@ ul.navbar-nav {
 .contact-form input[type=text],
 .contact-form input[type=email],
 .contact-form textarea {
+    float: right;
     width: 80%;
     color: #0fbced;
     border: 6px solid rgba(217,217,217,1); 
@@ -454,8 +455,34 @@ ul.navbar-nav {
             0 0 3px rgba(0,0,0,0.1); 
     padding: 15px;
     background: rgba(255,255,255,1);
-    margin: 0 0 3em 0;
+    margin: 0 4em 3em 0;
 }
+
+.submit_button {
+  float: left;
+  margin-left: 4em;
+  background: #0fbced;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  font-family: 'Lato', sans-serif;
+  color: #ffffff;
+  font-size: 1em;
+  padding: 5px 10px 5px 10px;
+  border: solid #1f628d 0px;
+  text-decoration: none;
+}
+
+.submit_button:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
 
 
 .contact-form textarea {
@@ -499,10 +526,6 @@ ul.navbar-nav {
     background: transparent url('../images/fb-icon.png') center top no-repeat;
 }
 
-.facebook-icon:hover {
-    
-}
-
 .twitter-icon {
     margin-top: 0.8em;
     margin-left: 1em;
@@ -523,6 +546,8 @@ ul.navbar-nav {
     display: block;
     background: transparent url('../images/linkedin-icon.png') center top no-repeat;
 }
+
+
 
 
 /* =============================================== */
