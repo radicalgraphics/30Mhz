@@ -21,7 +21,10 @@
 	width: 220px;
 	height: 220px;
 	display: inline-block;
-	margin: 20px;
+	/*margin: 60px;*/
+	margin-right: 40px;
+	margin-left: 40px;
+	margin-top: 20px;
 }
 
 
@@ -54,7 +57,29 @@
 	background-image: url(../images/pim.png);
 }
 
+.ch-img-4 { 
+	background-image: url(../images/jasper.png);
+}
 
+.ch-img-5 { 
+	background-image: url(../images/josesantiago.png);
+}
+
+.ch-img-6 { 
+	background-image: url(../images/adolfo.png);
+}
+
+.ch-img-7 { 
+	background-image: url(../images/fleur.png);
+}
+
+.ch-img-8 { 
+	background-image: url(../images/gaby.png);
+}
+
+.ch-img-9 { 
+	background-image: url(../images/estefy.png);
+}
 
 
 .ch-info {
@@ -85,13 +110,25 @@
 	background: rgba(120,216,62, 0.54);
 }
 
+.ch-info.chblue{
+	background: rgba(1,209,211, 0.54);
+}
+
+.ch-info.chpurple{
+	background: rgba(137,91,213, 0.54);
+}
+
+.ch-info.chred{
+	background: rgba(242,92,0, 0.54);
+}
+
 .ch-info h3 {
 	color: #fff;
 	/*text-transform: uppercase;*/
 	/*letter-spacing: 2px;*/
 	font-size: 3em;
 	/*margin: 0 30px;*/
-	padding: 45px 0 0 0;
+	padding: 1em 0 0 0;
 	height: 140px;
 	font-family: 'Lato', Arial, sans-serif;
 	font-weight: 400;
@@ -102,12 +139,12 @@
 
 .ch-info p {
 	color: #fff;
-	padding: 10px 5px;
-	font-style: italic;
-	/*margin: 0 30px;*/
-	margin-top: 0px;
-	font-size: 12px;
-	border-top: 1px solid rgba(255,255,255,0.5);
+	/*padding: 10px 5px;*/
+	/*font-style: italic;*/
+	margin-top: -2.5em;
+	font-size: 1.5em;
+	font-family: TradeGothicLTStd-Bd2, Arial, sans-serif;
+	/*border-top: 1px solid rgba(255,255,255,0.5);*/
 	opacity: 0;
 	-webkit-transition: all 1s ease-in-out 0.4s;
 	-moz-transition: all 1s ease-in-out 0.4s;
@@ -116,22 +153,28 @@
 	transition: all 1s ease-in-out 0.4s;
 }
 
-.ch-info p a {
+/*.ch-info p a {
 	display: block;
 	color: #fff;
 	color: rgba(255,255,255,0.7);
 	font-style: normal;
 	font-weight: 700;
-	/*text-transform: uppercase;*/
+	text-transform: uppercase;
 	font-size: 9px;
 	letter-spacing: 1px;
-	/*padding-top: 4px;*/
-	font-family: 'Open Sans', Arial, sans-serif;
+	/*padding-top: 4px;
+	/*font-family: 'Open Sans', Arial, sans-serif;
+}*/
+
+.ch-info a:hover {
+	color: #fff222;
+	/*color: rgba(0,0,0, 0.8);*/
+	text-decoration: none;
+
 }
 
-.ch-info p a:hover {
-	color: #fff222;
-	color: rgba(0,0,0, 0.8);
+.ch-info a:focus{
+	outline: 0;
 }
 
 /*.ch-green:hover{
