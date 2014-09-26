@@ -384,7 +384,7 @@ header
 
             <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
             <div style="overflow:hidden;">
-              <div id="gmap_canvas" style="height:700px;width:100%;"></div>
+              <div id="gmap_canvas" style="height:800px;width:100%;"></div>
               <style>#gmap_canvas img{max-width:none!important;background:none!important}</style>
             </div>
             
@@ -399,13 +399,53 @@ header
           </div>
 
           <div class='row over-map'>
-            <div class='col-lg-7'>
-              <div class='contact-text-3'>Does this resonate with you, or just  want to hear more.<br>Write us an e-mail!</div>
+            <div class='col-lg-7 col-md-7 col-sm-7 left-col-map'>
+              <div class='row'>
+                <div class='col-lg-12'>
+                  <div class='contact-text-3'>Does this resonate with you, or just  want to hear more.<br>Write us an e-mail!</div>
+                </div>
+              </div>
+              <div class='row'>
+                <div class='col-lg-12'>
+                  <div class='contact-text-4'>CAVE ROKIN</div>
+                  <div class='contact-text-5'>Rokin 60</div>
+                  <div class='contact-text-6'>1017 KV</div>
+                  <div class='contact-text-6'>Amsterdam</div>
+                  <a class="facebook-icon" href="https://www.facebook.com" target="blank"></a>
+                  <a class="twitter-icon" href="https://twitter.com" target="blank"></a>
+                  <a class="linkedin-icon" href="https://nl.linkedin.com" target="blank"></a>
+                </div>
+              </div>
             </div>
-            <div class='col-lg-5'>
-              <div class='contact-text-4'>CONTACT FORM HERE!</div>
-              <div class='contact-text-4'>CONTACT FORM HERE!</div>
+            <!-- CONTACT FORM  ==================================== -->
+            <div class='col-lg-5 right-col-map contact-form'>
+              
+              <div class='row input-1'>
+                <div class='col-lg-8 col-lg-offset-4'>
+
+                    <input type="text" name="name" id="name" placeholder="type your name*" />
+
+                </div>
+              </div>
+            
+              <div class='row input-2'>
+                <div class='col-lg-8 col-lg-offset-4'>
+
+                    <input type="email" name="email" id="email" placeholder="your email*" />
+
+                </div>
+              </div>
+
+              <div class='row input-3'>
+                <div class='col-lg-8 col-lg-offset-4'>
+
+                    <textarea name="message" id="message" placeholder="your message*"></textarea>
+
+                </div>
+              </div>                          
+
             </div>
+            <!-- END CONTACT FORM  ================================ -->
           </div>
       </div>
   </div>
@@ -448,7 +488,7 @@ header
       });
       
       infowindow = new google.maps.InfoWindow({
-        content:"<b>30MHz</b><br/>Rokin<br/>Amsterdam" 
+        content:"30MHz" 
       });
       
       google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);
