@@ -444,6 +444,11 @@
     font-weight: bold;
 }
 
+#footer p a:hover{
+    text-decoration: none;
+    color:#ff201f;
+}
+
 .copyright{
     font-family: TradeGothicLTStd, sans-serif;
 }
