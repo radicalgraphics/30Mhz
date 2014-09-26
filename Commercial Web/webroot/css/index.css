@@ -252,6 +252,7 @@
 /* ================================================ */
 /* CONTACT SECTION ================================ */
 /* ================================================ */
+
 .google-map {
     position: relative;
 }
@@ -324,7 +325,7 @@
     height: 15em;
 }
 .contact-text-4 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'TradeGothicLTStd-Light', sans-serif;
     font-size: 1.5em;
     font-weight: 400;
     text-align: left; 
@@ -333,7 +334,7 @@
 }
 
 .contact-text-5, .contact-text-6{
-    font-family: 'Lato', sans-serif;
+    font-family: 'TradeGothicLTStd-Light', sans-serif;
     font-size: 1.5em;
     font-weight: 200;
     text-align: left; 
@@ -421,22 +422,30 @@
     color:#b477e8;
 }
 
-.team-row{
-    padding-top: 6em;
-    margin: 0 auto 0;
+/* =============================================== */
+/* FOOTER SECTION ================================== */
+/* =============================================== */
+
+#footer{
+    background-color: #fcf1eb;
+    padding-top: 5em;
 }
 
-.team-row a img:hover{
-    opacity: 0.1;
-    filter: alpha(opacity=10);
-
-
+.footer-title{
+    color:#ff201f;
+    font-family: TradeGothicLTStd-Bd2, sans-serif;
 }
 
-.team-row.green-cover:hover{
-    
-    background-color: #ABD036;
-    border-radius: 50px;
+#footer p a{
+    color:#000000;
+    font-family: TradeGothicLTStd-Bd2, sans-serif;
+    font-size: 0.8em;
+    /*letter-spacing: 1px;*/
+    font-weight: bold;
+}
+
+.copyright{
+    font-family: TradeGothicLTStd, sans-serif;
 }
 
 /* ================================================== */
