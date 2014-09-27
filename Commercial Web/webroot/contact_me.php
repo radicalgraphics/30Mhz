@@ -28,7 +28,6 @@ if($_POST)
     //Sanitize input data using PHP filter_var().
     $user_Name        = filter_var($_POST["userName"], FILTER_SANITIZE_STRING);
     $user_Email       = filter_var($_POST["userEmail"], FILTER_SANITIZE_EMAIL);
-    // $user_Phone       = filter_var($_POST["userPhone"], FILTER_SANITIZE_STRING);
     $user_Message     = filter_var($_POST["userMessage"], FILTER_SANITIZE_STRING);
     
     //additional php validation
@@ -42,14 +41,10 @@ if($_POST)
         $output = json_encode(array('type'=>'error', 'text' => 'Please enter a valid email!'));
         die($output);
     }
-    // if(!is_numeric($user_Phone)) //check entered data is numbers
-    // {
-    //     $output = json_encode(array('type'=>'error', 'text' => 'Only numbers allowed in phone field'));
-    //     die($output);
-    // }
+
     if(strlen($user_Message)<5) //check emtpy message
     {
-        $output = json_encode(array('type'=>'error', 'text' => 'Too short message! Please enter something.'));
+        $output = json_encode(array('type'=>'error', 'text' => 'Too short message! Please enter something longer.'));
         die($output);
     }
     
