@@ -420,27 +420,22 @@ header
             <!-- CONTACT FORM  ==================================== -->
             <div class='col-lg-5 right-col-map contact-form'>
               <fieldset class='contact_form'>
+                <div id="result"></div>
                 <div class='row input-1'>
                   <div class='col-lg-8 col-lg-offset-4'>
-
                       <input type="text" name="name" id="name" placeholder="type your name*" />
-
                   </div>
                 </div>
               
                 <div class='row input-2'>
                   <div class='col-lg-8 col-lg-offset-4'>
-
                       <input type="email" name="email" id="email" placeholder="your email*" />
-
                   </div>
                 </div>
 
                 <div class='row input-3'>
                   <div class='col-lg-8 col-lg-offset-4'>
-
                       <textarea name="message" id="message" placeholder="your message*"></textarea>
-
                   </div>
                 </div>                          
 
@@ -521,15 +516,6 @@ header
 
 </section>
 
-
-<script type="text/javascript" src="js/jquery-1.9.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script src="js/jquery.easing-1.3.pack.js"></script>
-<script src="js/jquery.sticky.js"></script> 
-<script src="js/jquery.inview.js"></script> 
-<!-- <script src="js/main_alt.js"></script> -->
-<script type="text/javascript" src="js/radical_parallax.js"></script>
-<script type="text/javascript" src="js/jquery.scrollTo.min.js"></script>
 
 <script type="text/javascript"> 
          
@@ -617,9 +603,23 @@ $(document).ready(function() {
             
         }
     });
+
+    //reset previously set border colors and hide all message on .keyup()
+    $("#contact_form input, #contact_form textarea").keyup(function() { 
+        $("#contact_form input, #contact_form textarea").css('border-color',''); 
+        $("#result").slideUp(); 
+    });
+
 });
 </script>
-
+<script type="text/javascript" src="js/jquery-1.9.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script src="js/jquery.easing-1.3.pack.js"></script>
+<script src="js/jquery.sticky.js"></script> 
+<script src="js/jquery.inview.js"></script> 
+<!-- <script src="js/main_alt.js"></script> -->
+<script type="text/javascript" src="js/radical_parallax.js"></script>
+<script type="text/javascript" src="js/jquery.scrollTo.min.js"></script>
 
 </body>
 
