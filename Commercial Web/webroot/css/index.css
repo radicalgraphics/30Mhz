@@ -289,9 +289,7 @@ ul.navbar-nav {
     margin-left: 3%;
 }
 
-#color-cow {
-    margin-top: 1em;
-}
+
 
 #tour-at-text {
 	color: #000;
@@ -621,6 +619,28 @@ ul.navbar-nav {
 .copyright{
     font-family: TradeGothicLTStd, sans-serif;
 }
+
+
+
+/*****************************************************/
+/*       COW HOVER EFFECT                            */
+/*****************************************************/
+
+#color-cow {
+    margin-top: 1em;
+    width:520px;
+    height:370px;
+    background: url(../images/cow.png) no-repeat;
+}
+
+#color-cow:hover{
+    width:520px;
+    height:370px;
+    background: url(../images/color_cow.png) no-repeat;
+
+}
+
+
 
 /* ================================================== */
 /* Responsive Media ================================= */
