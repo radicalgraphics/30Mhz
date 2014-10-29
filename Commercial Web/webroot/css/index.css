@@ -642,6 +642,71 @@ ul.navbar-nav {
 
 
 
+
+/*****************************************************/
+/*       ZENSI SPECIFIC PAGE                         */
+/*****************************************************/
+
+
+/*ZENSI Sizedoesnotmatter section                    */
+#sizedoesnotmatter{
+    font-family: 'Lato';
+    padding-top: 5em;
+}
+
+
+.container_size_matter{
+    background-repeat:no-repeat;
+    /*background-size:contain;*/
+    background-position:center;
+    height: 737px;
+    background-image: url(../images/product_page/interior_1_opt.jpg);
+    font-family: 'Lato';
+
+}
+
+
+.taking_care_text{
+    padding-top: 2em;
+    font-size: 2em;
+    color:#ffffff;
+    padding-left: 13em;
+}
+
+
+.headline_size{
+    font-size: 5em;
+    color:#ff4200;
+    font-weight: 300;
+    padding-top: 460px;
+}
+
+.subtitle_size{
+    font-size: 2.3em;
+    color:#ffffff;
+    font-weight: 300;
+}
+
+
+/*ZENSI Sizedoesnotmatter section                    */
+
+.headline_meet_zensie{
+    font-size: 4em;
+    padding-top: 1em;
+    color:#0093b2;
+    font-family: 'Lato';
+    font-weight: 300;
+    padding-left: 5em;
+    text-align: left;
+}
+
+
+
+/*ZENSI Sizedoesnotmatter section                    */
+
+/*ZENSI Sizedoesnotmatter section                    */
+
+
 /* ================================================== */
 /* Responsive Media ================================= */
 /* ================================================== */
