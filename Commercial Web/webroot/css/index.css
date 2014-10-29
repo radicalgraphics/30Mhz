@@ -465,7 +465,7 @@ ul.navbar-nav {
 
 .submit_button {
   float: left;
-  margin-left: 4em;
+  margin-left: 10%;
   background: #0fbced;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -647,18 +647,132 @@ ul.navbar-nav {
 /* ================================================== */
 
 @media (min-width: 992px) and (max-width: 1199px) {
-
+    .tour-4columns {
+        margin-left: 1em;
+    }
+    .contact-text-1 {
+        font-size: 1.8em;
+    }
+    .contact-text-2 {
+        font-size: 1.8em;   
+    }
+    .contact-text-3 {
+        font-size: 3.5em;
+        margin-top: 0.5em;
+    }
+    .right-col-map {
+        margin-top: 14em;
+        float: right;
+    }
+    .contact-form input[type=text],
+    .contact-form input[type=email],
+    .contact-form textarea {    
+        width: 100%;
+    }
+    .submit_button {
+        margin-left: -18%;    
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-
+    ul.navbar-nav {
+        margin-right: -5%;
+    }
+    .tour-4columns {
+        margin-left: 1em;
+    }    
+    .contact-text-1 {
+        font-size: 1.8em;
+    }
+    .contact-text-2 {
+        font-size: 1.8em;   
+    }
+    .contact-text-3 {
+        font-size: 3.5em;
+        margin-top: 0.5em;
+    }
+    .right-col-map {
+        margin-top: 14em;
+        float: right;
+    }
+    .contact-form input[type=text],
+    .contact-form input[type=email],
+    .contact-form textarea {    
+        width: 100%;
+    }
+    .submit_button {
+        margin-left: -18%;    
+    }
+    #footer {
+        padding-left: 1.5em;
+    }
+    .copyright {
+        position: absolute;
+        right: 1em;
+        top: -8.6em;
+    }
 }
 
 @media (max-width: 768px) {
+    .copyright {
+        position: absolute;
+        right: 0.1em;
+        top: -8.6em;
+    }
+    .contact-text-1 {
+        font-size: 1.6em;
+    }
+    .contact-text-2 {
+        font-size: 1.6em;   
+    }
+    .contact-text-3 {
+        font-size: 2.7em;
+        margin-top: 0.5em;
+    }
+    .right-col-map {
+        margin-top: 14em;
+        float: right;
+    }
+    .contact-form input[type=text],
+    .contact-form input[type=email],
+    .contact-form textarea {    
+        width: 100%;
+    }
+    .submit_button {
+        margin-left: -18%;
+    }
+    .navbar-nav {
+        margin-top: -15px;
+    }
+    .tour-col-text {
+        margin-left: 3em;
+    }  
 
 }
 
-@media (max-width: 320px) {
+@media (max-width: 640px) {
+
+    .contact-text-1 {
+        font-size: 1.5em;
+        margin-left: 2em;
+    }
+    .contact-text-2 {
+        font-size: 1.5em;   
+        margin-left: 2em;
+    }    
+    .contact-text-3 {
+        font-size: 1.9em;
+        margin-top: 1.5em;
+        margin-left: 1em;
+    }    
+    #footer {
+        padding-left: 1.5em;
+    }
+    .copyright {
+        position: absolute;
+        right: 1em;
+        top: -15.2em;
+    }    
 
 }
 
