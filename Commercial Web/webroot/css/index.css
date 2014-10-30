@@ -1,11 +1,8 @@
 
 @font-face { font-family: TradeGothicLTStd-Bd2; src: url('../webfonts/TradeGothicLTStd-Bd2.otf'); } 
 
-
-
-
 /*******************************************/
-/* STICKY TOP NAVIGATION CSS CONTROLS */
+/* STICKY TOP NAVIGATION CSS CONTROLS      */
 /*******************************************/
 
 #XV-lamp {
@@ -111,8 +108,6 @@ ul.navbar-nav {
     cursor:pointer;
 }
 
-
-
 .navbar-default .container {
     position: relative;
 }
@@ -199,10 +194,6 @@ ul.navbar-nav {
 }
 
 
-
-
-
-
 /* =============================================== */
 /* BENEFITS SECTION ============================== */
 /* =============================================== */
@@ -232,8 +223,6 @@ ul.navbar-nav {
 #login-text {
 	color: #000;
 }
-
-
 
 #benefits-sensitive-text {
 	color: #000;
@@ -362,6 +351,8 @@ ul.navbar-nav {
     font-weight: 200;
     margin-left: 3%;
     margin-top: 0.5em;
+    text-align: left;
+    padding-left: 2em;
 }
 
 #zensie-intro-text {
@@ -688,7 +679,16 @@ ul.navbar-nav {
 }
 
 
-/*ZENSI Sizedoesnotmatter section                    */
+/*ZENSI meet zensie section                    */
+
+.container_meet_zensie{
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 767px;
+    background-image: url(../images/product_page/);
+}
+
+
 
 .headline_meet_zensie{
     font-size: 4em;
@@ -702,10 +702,26 @@ ul.navbar-nav {
 
 
 
-/*ZENSI Sizedoesnotmatter section                    */
+/*ZENSI how does it work section                    */
 
-/*ZENSI Sizedoesnotmatter section                    */
+.container_howdoesitwork{
+    background-repeat:no-repeat;
+    background-position:center;
+    height: 767px;
+    background-color: #f8fdfe;
+    padding: 1em;
+    background-image: url(../images/product_page/how_it_works.jpg);
+}
 
+.headline_howdoesitwork{
+    font-size: 4em;
+    padding-top: 1em;
+    color:#a77cd3;
+    font-family: 'Lato';
+    font-weight: 300;
+    padding-left: 4em;
+    text-align: left;
+}
 
 /* ================================================== */
 /* Responsive Media ================================= */
