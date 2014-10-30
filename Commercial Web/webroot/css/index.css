@@ -690,6 +690,7 @@ ul.navbar-nav {
     background-repeat: no-repeat;
     background-position: center;
     height: 767px;
+    /*width: 1200px;*/
     background-image: url(../images/product_page/);
 }
 

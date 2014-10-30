@@ -102,5 +102,14 @@
         });
     }).resize();
 
+    /*==================
+        BxSlider
+    ====================*/
+
+    $(document).ready(function(){
+        $('.bxslider').bxSlider({
+            mode: 'vertical',
+        });
+    });
 
 })(jQuery);
