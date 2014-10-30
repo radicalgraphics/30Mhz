@@ -352,16 +352,20 @@ ul.navbar-nav {
     margin-left: 3%;
     margin-top: 0.5em;
     text-align: left;
-    padding-left: 2em;
+    padding-left: 5%;
 }
 
 #zensie-intro-text {
     color: #000;
+    margin-left: 3%;
     font-family: 'Lato', sans-serif;
     font-size: 1.5em;
     font-weight: 400;
-    margin-left: 3%;
-    margin-top: 0.8em;    
+    /*margin-left: 3%;*/
+    margin-top: 0.8em;
+    text-align: left;
+    /*padding-left: 5%;*/
+    padding-left: 4em;    
 }
 
 .on {
@@ -374,6 +378,7 @@ ul.navbar-nav {
 
 .zensie-boxes {
     margin-top: 5em;
+    margin-bottom: 5em;
 }
 
 #zensie-box-titles {
@@ -722,6 +727,16 @@ ul.navbar-nav {
     padding-left: 4em;
     text-align: left;
 }
+
+/* ZENSIE footer*/
+
+#footer_zensie{
+    background-color: #d3ea75;
+    padding-top: 5em;
+}
+
+
+
 
 /* ================================================== */
 /* Responsive Media ================================= */
