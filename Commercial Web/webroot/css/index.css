@@ -712,8 +712,9 @@ ul.navbar-nav {
 .container_howdoesitwork{
     background-repeat:no-repeat;
     background-position:center;
+    background-size:contain;
     height: 767px;
-    background-color: #f8fdfe;
+    background-color: rgba(165,230,241,0.07);
     padding: 1em;
     background-image: url(../images/product_page/how_it_works.jpg);
 }
@@ -772,6 +773,9 @@ ul.navbar-nav {
         font-size: 1.9em;
         padding-left: 12em;
     }    
+    .headline_howdoesitwork{
+        padding-left: 1em;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -814,7 +818,13 @@ ul.navbar-nav {
     .taking_care_text{
         font-size: 1.8em;
         padding-left: 12em;
-    }        
+    }
+    .headline_howdoesitwork{
+        padding-left: 1em;
+    }
+    .container_howdoesitwork{
+        height: 600px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -864,7 +874,13 @@ ul.navbar-nav {
     .subtitle_size{
         font-size: 1.5em;
     }    
-
+    .headline_howdoesitwork{
+        font-size: 3.5em;
+        padding-left: 0.5em;
+    }
+    .container_howdoesitwork{
+        height: 480px;    
+    }
 }
 
 @media (max-width: 640px) {
