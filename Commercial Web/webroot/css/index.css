@@ -753,6 +753,10 @@ ul.navbar-nav {
     .submit_button {
         margin-left: -18%;    
     }
+    .taking_care_text{
+        font-size: 1.9em;
+        padding-left: 12em;
+    }    
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -792,6 +796,10 @@ ul.navbar-nav {
         right: 1em;
         top: -8.6em;
     }
+    .taking_care_text{
+        font-size: 1.8em;
+        padding-left: 12em;
+    }        
 }
 
 @media (max-width: 768px) {
@@ -828,6 +836,19 @@ ul.navbar-nav {
     .tour-col-text {
         margin-left: 3em;
     }  
+    .taking_care_text{
+        font-size: 1.8em;
+        padding-left: 6em;
+        padding-right: 1em;
+    }
+    .headline_size{
+        font-size: 3.9em;
+        padding-top: 450px;
+    }
+
+    .subtitle_size{
+        font-size: 1.5em;
+    }    
 
 }
 
