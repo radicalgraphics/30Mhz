@@ -653,7 +653,7 @@ ul.navbar-nav {
 
 .container_size_matter{
     width: 100%;
-    height: 1000px;
+    min-height: auto;
     background-image: url(../images/product_page/interiorview-optimized.jpg);
     background-repeat:no-repeat;
     background-size:100%;
@@ -679,6 +679,7 @@ ul.navbar-nav {
 
 .subtitle_size{
     font-size: 2.3em;
+    padding-bottom: 1em;
     color:#ffffff;
     font-weight: 300;
 }
