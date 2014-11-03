@@ -352,20 +352,19 @@ ul.navbar-nav {
     margin-left: 3%;
     margin-top: 0.5em;
     text-align: left;
-    padding-left: 5%;
+    /*padding-left: 5%;*/
 }
 
 #zensie-intro-text {
     color: #000;
-    margin-left: 3%;
     font-family: 'Lato', sans-serif;
     font-size: 1.5em;
     font-weight: 400;
-    /*margin-left: 3%;*/
+    margin-left: 3.5%;
     margin-top: 0.8em;
     text-align: left;
     /*padding-left: 5%;*/
-    padding-left: 4em;    
+    /*padding-left: 4em;    */
 }
 
 .on {
@@ -381,7 +380,7 @@ ul.navbar-nav {
     margin-bottom: 5em;
 }
 
-#zensie-box-titles {
+.zensie-box-titles {
     font-family: 'Lato', sans-serif;
     font-size: 2.5em;
     font-weight: 400;
@@ -703,7 +702,7 @@ ul.navbar-nav {
     color:#0093b2;
     font-family: 'Lato';
     font-weight: 300;
-    margin-left: 4%;
+    margin-left: 5%;
     text-align: left;
 }
 
@@ -727,7 +726,7 @@ ul.navbar-nav {
     color:#a77cd3;
     font-family: 'Lato';
     font-weight: 300;
-    margin-left: 11%;
+    margin-left: 5%;
     text-align: left;
 }
 
@@ -792,6 +791,39 @@ ul.navbar-nav {
     .headline_howdoesitwork{
         padding-left: 1em;
     }
+/* meet zensie section */
+    .headline_meet_zensie{
+        font-size: 3.6em;
+        padding-top: 1em;
+        margin-left: 5%;
+    }
+
+/* how does it work section */
+    .headline_howdoesitwork{
+        font-size: 3.6em;
+        padding-top: 1em;
+        margin-left: 0;
+    }
+
+/* The Zensie Section */
+    #zensie-title {
+        font-size: 5em;
+        margin-left: 3%;
+        margin-top: 0.5em;
+    }
+
+    #zensie-intro-text {
+        font-size: 1.33em;
+        margin-left: 3.5%;
+        margin-top: 0.8em;
+    }    
+    .zensie-box-titles {
+        font-size: 2.2em;
+        margin-top: 0.8em;
+    }
+    .zensie-box-text {
+        padding-left: 1.5em;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -854,6 +886,28 @@ ul.navbar-nav {
     .container_howdoesitwork{
         height: 600px;
     }
+/* meet zensie section */
+    .headline_meet_zensie{
+        font-size: 3.6em;
+        padding-top: 1em;
+        margin-left: 5%;
+    }
+
+/* how does it work section */
+    .headline_howdoesitwork{
+        font-size: 3.6em;
+        padding-top: 1em;
+        margin-left: 0;
+    }      
+/* The Zensie Section */
+    .zensie-box-text {
+        padding-left: 1.5em;
+    }
+
+/* Footer */    
+    .copyright {
+        top: 0;
+    }
 }
 
 @media (max-width: 768px) {
@@ -874,11 +928,6 @@ ul.navbar-nav {
         margin-top: -0.5em;
     }
 
-    .copyright {
-        position: absolute;
-        right: 0.1em;
-        top: -8.6em;
-    }
     .contact-text-1 {
         font-size: 1.6em;
     }
@@ -915,6 +964,23 @@ ul.navbar-nav {
     .container_howdoesitwork{
         height: 480px;    
     }
+/* meet zensie section */
+    .headline_meet_zensie{
+        font-size: 3.4em;
+        padding-top: 1em;
+        margin-left: 5%;
+    }
+
+/* how does it work section */
+    .headline_howdoesitwork{
+        font-size: 3.4em;
+        padding-top: 1em;
+        margin-left: 2%;
+    }    
+/* Footer */    
+    .copyright {
+        top: 0;
+    }      
 }
 
 @media (max-width: 640px) {
@@ -957,7 +1023,36 @@ ul.navbar-nav {
         right: 1em;
         top: -15.2em;
     }    
+/* how does it work section */
+    .headline_howdoesitwork{
+        font-size: 3.4em;
+        padding-top: 1em;
+        margin-left: 1.5%;
+    }      
+/* The Zensie Section */
+    #zensie-title {
+        font-size: 4em;
+        margin-left: 3%;
+        margin-top: 0.5em;
+    }
 
+    #zensie-intro-text {
+        font-size: 1.1em;
+        margin-left: 3.5%;
+        margin-top: 0.6em;
+    }    
+    .zensie-box-titles {
+        font-size: 2.2em;
+        margin-top: 0.8em;
+    }
+    .zensie-box-text {
+        padding-left: 1.5em;
+        margin-bottom: 2em;
+    }  
+/* Footer */    
+    .copyright {
+        top: 0;
+    }       
 }
 
 
