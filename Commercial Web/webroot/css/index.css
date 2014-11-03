@@ -658,7 +658,6 @@ ul.navbar-nav {
     background-repeat:no-repeat;
     background-size:100%;
     font-family: 'Lato';
-
 }
 
 .taking_care_text{
@@ -688,13 +687,14 @@ ul.navbar-nav {
 /*ZENSI meet zensie section                    */
 
 .container_meet_zensie{
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 767px;
-    /*width: 1200px;*/
+    height: 100%;
+    padding-right: -15px !important;
     background-image: url(../images/product_page/);
 }
 
+.col-lg-12, .col-md-12, .col-sm-12, .col-xs-12 {
+    padding-right: 0px;
+}
 
 
 .headline_meet_zensie{
@@ -703,7 +703,7 @@ ul.navbar-nav {
     color:#0093b2;
     font-family: 'Lato';
     font-weight: 300;
-    padding-left: 5em;
+    margin-left: 4%;
     text-align: left;
 }
 
@@ -727,7 +727,7 @@ ul.navbar-nav {
     color:#a77cd3;
     font-family: 'Lato';
     font-weight: 300;
-    padding-left: 4em;
+    margin-left: 11%;
     text-align: left;
 }
 
