@@ -1,20 +1,8 @@
 (function ($) {
     "use strict";
 
-    /*	Table OF Contents
-	==========================
-	
-	1-Navigation
-	2-Sticky
-	3-sliders
-	4-Blog layout
-	5-Contact
-	6-Portfolio Filtring/Popup
-	7-Animations
-	8-Statistics Handling (Records)
-	9-Google Maps
   /*===================
-    1-Navigation
+    Navigation
     ===================*/
 
     var leftPos, newWidth, isNavClicked = false,
@@ -93,7 +81,7 @@
 
 
     /*===================
-    2-Sticky
+    Sticky
     ===================*/
     $(window).on("resize", function () {
         xv_lava($(".navbar-nav li.active"), 100);
