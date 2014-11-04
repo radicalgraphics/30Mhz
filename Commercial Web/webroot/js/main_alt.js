@@ -94,10 +94,10 @@
         BxSlider
     ====================*/
 
-    $(document).ready(function(){
-        $('.bxslider').bxSlider({
-            mode: 'vertical',
-        });
-    });
+    // $(document).ready(function(){
+    //     $('.bxslider').bxSlider({
+    //         mode: 'vertical',
+    //     });
+    // });
 
 })(jQuery);
