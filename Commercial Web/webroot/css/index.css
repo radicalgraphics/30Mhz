@@ -1036,6 +1036,7 @@ ul.navbar-nav {
         margin-top: 0.5em;
     }
 
+
     #zensie-intro-text {
         font-size: 1.1em;
         margin-left: 3.5%;
@@ -1053,6 +1054,17 @@ ul.navbar-nav {
     .copyright {
         top: 0;
     }       
+
+    .ch-grid{
+        margin:0;
+
+    }
+
+    .ch-item{
+        width:50%;
+        /*height: 50%;*/
+    }
+
 }
 
 
