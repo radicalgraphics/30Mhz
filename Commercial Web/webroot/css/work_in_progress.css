@@ -1,0 +1,22 @@
+.work-in-progress img {
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (min-width: 1280px){
+	.work-in-progress img {
+		top: -15%;
+	}
+}
+
+@media screen and (max-width: 1024px) { 
+  .work-in-progress img {
+    left: 50%;
+    margin-left: -512px;   
+  }
+}
