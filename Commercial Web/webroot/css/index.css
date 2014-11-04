@@ -691,7 +691,7 @@ ul.navbar-nav {
 .container_meet_zensie{
     height: 100%;
     padding-right: -15px !important;
-    background-image: url(../images/product_page/);
+    /*background-image: url(../images/product_page/);*/
 }
 
 .col-lg-12, .col-md-12, .col-sm-12, .col-xs-12 {

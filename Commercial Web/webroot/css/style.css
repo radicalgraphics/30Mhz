@@ -229,7 +229,7 @@
 	z-index:60;
 	width: 2.6em;	
 	height: 4.6em;
-	background-image: url(../images/slider/arrows.png);
+	/*background-image: url(../images/slider/arrows.png);*/
 	background-size:200%;
 }
 #wowslider-container1 a.ws_next{
