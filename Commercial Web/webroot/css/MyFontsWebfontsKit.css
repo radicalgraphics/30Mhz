@@ -25,6 +25,7 @@
 /* @import must be at top of file, otherwise CSS will not work */
 @import url("//hello.myfonts.net/count/26715e");
 @import url("//hello.myfonts.net/count/2ac7cb");
+@import url(http://fonts.googleapis.com/css?family=Lato:400,300,700,900);
   
 @font-face {
 	font-family: 'AmericanTypewriterITCPro-Med';
@@ -60,7 +61,7 @@
 @font-face { font-family: TradeGothicLTStd; src: url('../webfonts/TradeGothicLTStd.otf'); } 
 @font-face { font-family: TradeGothicLTStd-Bd2; src: url('../webfonts/TradeGothicLTStd-Bd2.otf'); } 
 
-@import url(http://fonts.googleapis.com/css?family=Lato:400,300,700,900);
+
 
 
 
