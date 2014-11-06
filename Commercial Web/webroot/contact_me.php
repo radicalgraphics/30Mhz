@@ -1,7 +1,7 @@
 <?php
 if($_POST)
 {
-    $to_Email       = "leunam.san@gmail.com"; //Replace with recipient email address
+    $to_Email       = "gaby@30mhz.com"; //Replace with recipient email address
     $subject        = 'Sent from Zensie - 30MHz -'; //Subject line for emails
     
     
