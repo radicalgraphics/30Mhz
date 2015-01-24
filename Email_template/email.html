@@ -29,7 +29,7 @@ Email on Acid - http://www.emailonacid.com/blog/details/C18/doctype_-_the_black_
 		***********/
 		/* Client-specific Styles */
 		#outlook a {padding:0;} /* Force Outlook to provide a "view in browser" menu link. */
-		body{width:100% !important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0; padding:0; font-family:Helvetica,Arial,sans-serif;}
+		body{width:100% !important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0; padding:0; font-family:Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;}
 		/* Prevent Webkit and Windows Mobile platforms from changing default font sizes, while not breaking desktop design. */
 		.ExternalClass {width:100%;} /* Force Hotmail to display emails at full width */
 		.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Force Hotmail to display normal line spacing.  More on that: http://www.emailonacid.com/forum/viewthread/43/ */
@@ -97,7 +97,7 @@ Email on Acid - http://www.emailonacid.com/blog/details/C18/doctype_-_the_black_
 		}
 
 		.spacer{
-			margin-top:10em;
+			margin-top:5em;
 		}
 
 		.text_holder{
@@ -112,6 +112,13 @@ Email on Acid - http://www.emailonacid.com/blog/details/C18/doctype_-_the_black_
 			background-color: #000000;
 			color:#f2f2f2;
 			font-family: sans-serif;
+			font-size: 0.8em;
+		}
+
+		.mini_footer{
+			font-size: 0.6em;
+			font-weight: bolder;
+			text-align: center;
 		}
 
 		#innerTable{
@@ -136,6 +143,27 @@ Email on Acid - http://www.emailonacid.com/blog/details/C18/doctype_-_the_black_
 			}
 		.copyright-text{
 			font-size: 10px;
+		}
+
+
+		.support-text{
+			color:#54b101;
+		}
+
+		.preferences-text{
+			color:#00b3b1;
+		}
+
+		.dashboard-text{
+			color:#9464b9;
+		}
+
+		.contact-text{
+			color:#ff5a00;
+		}
+
+		.follow-links{
+			text-align: right;
 		}
 		/***************************************************
 		****************************************************
@@ -269,7 +297,7 @@ Email on Acid - http://www.emailonacid.com/blog/details/C18/doctype_-_the_black_
 									<p style="font-size:3em;color:#e73e03;">user: <span style="color:#bb9adf;">fiore</span><br>
 									password: <span style="color:#bb9adf;">Halleluya14</span></p>
 									<p style="font-size:1.5em;line-height:0px;">keep this e-mail to have quick access to your dashboard</p>
-									<p style="font-size:3em;font-weight:100;">Thank You!</p><br><br>
+									<p style="font-size:3em;font-weight:100;color:#0093b2;">Thank You!</p><br><br>
 								</div>
 							</div>
 							
@@ -278,12 +306,12 @@ Email on Acid - http://www.emailonacid.com/blog/details/C18/doctype_-_the_black_
 					<tr>
 						<td>
 							<div class="mini_footer">
-								SUPPORT PREFERENCES DASHBOARD CONTACT<br><br>
+								<span class="support-text">SUPPORT</span> <span class="preferences-text">PREFERENCES</span> <span class="dashboard-text">DASHBOARD</span> <span class="contact-text">CONTACT</span><br><br><br><br>
 							</div>
 						</td>
 					</tr>
 				</table>
-				<table id="innerTable" >
+				<table id="innerTable" cellpadding="5">
 					<tr class="main_footer">
 						<td>
 							<br><br>							
@@ -291,7 +319,7 @@ Email on Acid - http://www.emailonacid.com/blog/details/C18/doctype_-_the_black_
 								TERMS & CONDITIONS
 							
 						</td>
-						<td>
+						<td class="follow-links">
 							<a href="">follow us in Twitter</a> | <a href="">like us in Facebook</a> | <a href="">follow us in Linkedin</a>
 						</td>
 					</tr>
@@ -304,14 +332,7 @@ Email on Acid - http://www.emailonacid.com/blog/details/C18/doctype_-_the_black_
 
 		<!-- End example table -->
 
-		<!-- Yahoo Link color fix updated: Simply bring your link styling inline. -->
-		<a href="http://htmlemailboilerplate.com" target ="_blank" title="Styling Links" style="color: orange; text-decoration: none;">Coloring Links appropriately</a>
-
-		<!-- Gmail/Hotmail image display fix: Gmail and Hotmail unwantedly adds in an extra space below images when using non IE browsers.  This can be especially painful when you putting images on top of each other or putting back together an image you spliced for formatting reasons.  Either way, you can add the 'image_fix' class to remove that space below the image.  Make sure to set alignment (don't use float) on your images if you are placing them inline with text.-->
-		<img class="image_fix" src="full path to image" alt="Your alt text" title="Your title text" width="x" height="x" />
-
-		<!-- Step 2: Working with telephone numbers (including sms prompts).  Use the "mobile_link" class with a span tag to control what number links and what doesn't in mobile clients. -->
-		<span class="mobile_link">123-456-7890</span>
+		
 
 		</td>
 	</tr>
